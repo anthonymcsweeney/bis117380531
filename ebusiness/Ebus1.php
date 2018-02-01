@@ -34,6 +34,31 @@ li a:hover {
     background-color: #111;
 }
 </style>
+
+
+<style>
+    .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+}
+
+</style>
+
+
 </head>
 <body>
 
@@ -79,12 +104,13 @@ li a:hover {
                
                <br/>
                
-               <button type="submit" id="btnProceed" disable>Add to Shopping Cart</button>
+               <button type="submit" id="btnProceed"disable>Add to Shopping Cart</button>
                
                </form>
 <br/>
-        <button onClick="calcSub()">Calculate Cost</button>
-        <a role="button" href="Ebus1.php">Clear Choice</a>
+        <button onClick="calcSub()"class="btn btn-success">Calculate Cost</button>
+        
+<button href="Ebus1.php" class="button button1">Clear Choice</button>
        
         
         </body>
