@@ -109,9 +109,10 @@ li a:hover {
                </form>
 <br/>
         <button onClick="calcSub()"class="btn btn-success">Calculate Cost</button>
+        <br/>
         
-<button href="Ebus1.php" class="button button1">Clear Choice</button>
-       
+
+       <a role="button" href="Ebus1.php">Clear Choice</a>
         
         </body>
 </html>
