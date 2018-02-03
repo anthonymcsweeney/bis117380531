@@ -5,7 +5,7 @@
        
        <!--jQuery-->
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-       <script type= "text/javascript" src="cost-calu.js"></script>
+       <script type= "text/javascript" src="cost_calu.js"></script>
        
        
        
@@ -77,7 +77,7 @@ li a:hover {
        
        <body>
            
-           <h4>Select a Product</h4>
+           <h3>Select a Product</h3>
            
            <br/>
            
@@ -104,11 +104,12 @@ li a:hover {
                
                <br/>
                
+               <button onClick="calcSub()"class="btn btn-success">Calculate Cost</button>
                <button type="submit" id="btnProceed"disable>Add to Shopping Cart</button>
                
                </form>
 <br/>
-        <button onClick="calcSub()"class="btn btn-success">Calculate Cost</button>
+          <button type="submit" id="btnProceed"disable>Add to Shopping Cart</button>
         <br/>
         
 
