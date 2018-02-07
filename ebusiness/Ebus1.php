@@ -105,7 +105,8 @@ li a:hover {
                <br/>
                
                <button onClick="calcSub()"class="btn btn-success">Calculate Cost</button>
-               <button type="submit" id="btnProceed"disable>Add to Shopping Cart</button>
+               
+               
                
                </form>
 <br/>
