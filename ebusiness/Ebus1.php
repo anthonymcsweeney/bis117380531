@@ -91,10 +91,22 @@ li a:hover {
                
                <label for"aws">
                    <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-                   AWS @ $300
+                   Amazon Web Services @ $300
                </label>
                
                <br/>
+               <label for"cloud 9">
+                   <input type="radio" id="cloud 9" name="product" onClick="disablebtnProceed()"/>
+                   Cloud 9 @ $200
+               </label>
+               
+               </br>
+               <label for"gmail">
+                   <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
+                   Gmail @ $400
+               </label>
+               
+               
                <br/>
                
                <label for="subtotal">
