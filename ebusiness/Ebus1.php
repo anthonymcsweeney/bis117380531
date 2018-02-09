@@ -114,19 +114,38 @@ li a:hover {
                    <input tyoe="text" id="subtotal" value="0.00" readonly/>
                </label>
                
+                   <label for="total">
+                   Sub Total
+                   <input tyoe="text" id="subtotal" value="0.00" readonly/>
+               </label>
+               
+                    <br/>
+
+              
+
+              <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+
+            
+
+            </form>
+
+            
+
+            <br/>
+               
                <br/>
                
-               <button onClick="calcSub()"class="btn btn-success">Calculate Cost</button>
-               
+               <button onClick="calcSub()">Calculate Cost</button>
+               <a role="button" href="Ebus1.php">Clear Choice</a>
                
                
                </form>
 <br/>
-          <button type="submit" id="btnProceed"disable>Add to Shopping Cart</button>
-        <br/>
+         
         
+    
 
-       <a role="button" href="Ebus1.php">Clear Choice</a>
+      
         
         </body>
 </html>
