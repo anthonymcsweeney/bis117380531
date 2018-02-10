@@ -1,14 +1,18 @@
-<!DOCTYPE html>
+
+ <!DOCTYPE html>
 <html>
-   <head>
-       <title>Select Product</title>
-       
-       <!--jQuery-->
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-       <script type= "text/javascript" src="cost_calu.js"></script>
-       
-       
-       
+    <head>
+        <title>Select Product</title>
+        
+        <!--jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="cost_calc.js"></script>
+
+    </head>
+    
+    <body>
+        
+             
       <style>
 ul {
     list-style-type: none;
@@ -69,32 +73,29 @@ li a:hover {
     <li style="float:right"><a href="../homepage.html">Homepage</a></li>
 </ul>
 
-
-<body>
- 
-       
-       </head>
-       
-       <body>
-           
-           <h3>Select a Product</h3>
-           
-           <br/>
-           
-           <form method="POST" action="Ebus2.php"
-           <label for="saleforce">
-               <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-               SalesForce @ $100
-               </label>
-               
-               </br>
-               
-               <label for"aws">
-                   <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-                   Amazon Web Services @ $300
-               </label>
-               
-               <br/>
+        
+        
+        
+        
+            <h4>Select a Product</h4>
+            
+            <br/>
+            
+            <form method="POST" action="Ebus2.php">
+              
+              <label for="salesforce">
+                <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+                SalesForce @ $100
+              </label>
+              
+              <br/>
+              
+              <label for="aws">
+                <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
+                AWS @ $300
+              </label>
+              
+                <br/>
                <label for"cloud 9">
                    <input type="radio" id="cloud 9" name="product" onClick="disablebtnProceed()"/>
                    Cloud 9 @ $200
@@ -105,49 +106,32 @@ li a:hover {
                    <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
                    Gmail @ $400
                </label>
-               
-               
-               <br/>
-               
-               <label for="subtotal">
-                   Sub Total
-                   <input tyoe="text" id="subtotal" value="0.00" readonly/>
-               </label>
-               
-                   <label for="total">
-                   Sub Total
-                   <input tyoe="text" id="subtotal" value="0.00" readonly/>
-               </label>
-               
-                    <br/>
-
+              <br/>
+              <br/>
               
-
-              <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
-
-            
-
-            </form>
-
-            
-
-            <br/>
-               
-               <br/>
-               
-               <button onClick="calcSub()">Calculate Cost</button>
-               <a role="button" href="Ebus1.php">Clear Choice</a>
-               
-               
-               </form>
-<br/>
-         
-        
+              <label for="subtotal">
+                Sub Total
+                <input type="text" id="subtotal" value="0.00" readonly/>
+              </label>
+              
+              <br/>
+              
+              <label for="total">
+                Total
+                <input type="text" id="total" value="0.00" readonly/>
+              </label>
     
-
-      
-        
-        </body>
+              <br/>
+              
+              <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+            
+            </form>
+            
+            <br/>
+            <button onClick="calcSub()">Calculate Cost</button>
+            <a role="button" href="Ebus1.php">Clear Choice</a>
+            
+    
+    </body>
 </html>
- 
        
