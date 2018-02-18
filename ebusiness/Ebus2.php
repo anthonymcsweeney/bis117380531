@@ -9,6 +9,7 @@ session_start();
 <html>
     <head>
         <title>Enter Details</title>
+        <link rel="stylesheet" href="../mystylesheer.css" type="text/css/">
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -30,7 +31,9 @@ session_start();
             <br/>
             <button onClick="validateDetails()">Validate</button>
             
+        </div>
         
+        <script type="text/javascript" src="ebus2_validaator.js"></script>
         
         <?php
         // Set session variables
