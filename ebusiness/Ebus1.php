@@ -15,7 +15,7 @@
         
              
   
-            <h4>Select a Product</h4>
+            <h3>Select a Product</h3>
             
             <br/>
             
@@ -30,7 +30,7 @@
               
               <label for="aws">
                 <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-                AWS @ $300
+                Amazon Web Service @ $300
               </label>
               
                 <br/>
@@ -40,15 +40,32 @@
                </label>
              
               <br/>
-              <br/>
+              <label for"gmail">
+                   <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
+                   Gmail 9 @ $400
+               </label>
+               <br><br><br>
+              
               
               <label for="subtotal">
-                Sub Total
+                Sub Total:
                 <input type="text" id="subtotal" name="total" value="0.00" readonly/>
               </label>
               
-              <br/>
+              <br><br>
               
+               <label for = "discount">
+                Discount @ 5%:
+                <input type = "text" id ="discount" name ="discount" valu ="0.00" readonly/>
+                
+              <br><br>
+            
+                <label for = "vat">
+              Vat @ 10%:
+                <input type = "text" id ="vat" name ="vat" valu ="0.00" readonly/>
+                
+                <br><br>
+                
               <label for="total">
                 Total
                 <input type="text" id="total" name="total" value="0.00" readonly/>
@@ -60,7 +77,7 @@
             
             </form>
             
-            <br/>
+            <br><br>
             <button onClick="calcSub()">Calculate Cost</button>
             <a class="button" role="button" href="Ebus1.php">Clear Choice</a>
             
