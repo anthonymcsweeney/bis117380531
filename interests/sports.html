@@ -1,35 +1,7 @@
 <!DOCTYPE html>
 <html>
- 
- <head>
- 
- <title>Sports</title>
- <link rel="stylesheet" type="text/css" href="../mystylesheet.css">
-
-<!--Adding Bootstrap-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-
-      <style>
-      
-      
-      
-.button {
-    background-color: #555555; /* Black */
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
+<head>
+<style>
 ul {
     list-style-type: none;
     margin: 0;
@@ -50,8 +22,12 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+li a:hover:not(.active) {
     background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
 }
 </style>
 </head>
@@ -73,7 +49,11 @@ li a:hover {
   
   
  <p><strong>Favourite Sport: </strong>Soccer</p>
- <p><strong>Team: </strong>Lakewood</p>
+ <p><strong>Team: </strong>Lakewood
+ <a href="http://lakewoodafc.ie/"> 
+     <img src="http://www.clubadmin.league.ie/admin/news/lakewood.gif" style= "width:80px;height:50px;">
+    </a>
+    </p>
  <p><strong>Position: </strong>Centre-Half</p>
  <p><strong> Training: </strong>Monday, Wednesday</p>
  
