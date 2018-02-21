@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="buttons.css">
+    
 <style>
-
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 10px;
-    text-align: center;
+a {
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    padding: 8px 16px;
 }
 
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
 
-.button {border-radius: 12px;}
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
 
+.next {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
 
 
 ul {
@@ -83,8 +92,8 @@ li a:hover:not(.active) {
  
 
         
-         <a href="cv_page2.html"><input type="button" value="Next"></a> 
           
+          <a href="cv_page2.html" class="next">Next &raquo;</a>
    </body>
     </div>
 </html>
