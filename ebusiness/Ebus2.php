@@ -6,6 +6,10 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
+        
+
+
+
         <title>Enter Details</title>
     
  <!--jQuery-->

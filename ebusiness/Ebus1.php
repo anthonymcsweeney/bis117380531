@@ -1,6 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+</style>
+</head>
+<body>
+
+
+
+        
         <title>Select Product</title>
          <link rel="stylesheet" href="../mystylesheet.css" type="text/css/">
         
@@ -14,7 +41,7 @@
     
     <body>
         
-            <h4>Select a Product</h4>
+            <h2>Select a Product</h2>
             
             <br/>
             
@@ -82,14 +109,16 @@
                 <br/>
                 <br/>
                 
-                <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+                <button type="submit" id="btnProceed" class="btn success" disabled>Add to Shopping Cart</button>
                 
             </form>
             
             <br/>
-            <button onClick="calcSub()">Calculate Cost</button>
+            <button onClick="calcSub()"  class="btn warning">Calculate Cost</button>
             
-            <a role="button" href="Ebus1.php">Clear Choice</a>
+            <a role="button" href="Ebus1.php" class="btn danger">Clear Choice</a>
+            
+     
         
     </body>
 </html>
