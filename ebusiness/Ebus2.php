@@ -7,7 +7,9 @@ session_start();
 <html>
     <head>
         
-
+<body style="background-image:url('http://adoptusanimalrescue.org/wp-content/uploads/2012/10/Blue-fade-background.jpg')">
+    
+</body>
 
 
         <title>Enter Details</title>

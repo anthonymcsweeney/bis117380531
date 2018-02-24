@@ -22,8 +22,12 @@
 .danger:hover {background: #da190b;}
 
 </style>
+
 </head>
-<body>
+
+    <body style="background-image:url('http://adoptusanimalrescue.org/wp-content/uploads/2012/10/Blue-fade-background.jpg')">
+    
+
 
 
 
