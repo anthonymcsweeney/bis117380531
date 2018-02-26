@@ -27,11 +27,11 @@ session_start();
                 
                
                 <br/>
-                 <label for="user_name">Name:</label>
-                    <input type="name" id="user_name" placeholder="user name" max length="16"> 
+                 <label for="name">Name:</label>
+                    <input type="name" id="name" placeholder="Name" max length="16"> 
                     <br/>
-                    <label for="user_email">Email:</label>
-                    <input type="email" id="user_email" placeholder= "user email">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder= "E-mail">
                     <br/>
                 <label for="user_pin">PIN:</label>
                 <br/>

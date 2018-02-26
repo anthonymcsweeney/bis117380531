@@ -10,13 +10,16 @@ session_start();
         <title>RECEIPT</title>
     </head>
     <body>
-        <h4>RECEIPT</h4>
+        <h2>RECEIPT</h2>
                 
-        <?php
+         <?php
         // Echo session variables that were set on previous page
-        echo "Total is " . $_SESSION["total"] . ".";
+        $fullname = $_POST['name'];
+        $email = $_POST['email'];
+        echo "Total Price: $" . $_SESSION["totalPrice"] . ".</br></br></br>"; 
+        echo "Name: $fullname </br></br></br> Email: $email" 
         ?>
-        
+        </br>
         <button>Print Receipt</button>
         <a href="../homepage.html"><button>Return Home</button></a>
         
