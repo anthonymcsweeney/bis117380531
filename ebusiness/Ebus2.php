@@ -27,7 +27,12 @@ session_start();
                 
                
                 <br/>
-                
+                 <label for="user_name">Name:</label>
+                    <input type="name" id="user_name" placeholder="user name" max length="16"> 
+                    <br/>
+                    <label for="user_email">Email:</label>
+                    <input type="email" id="user_email" placeholder= "user email">
+                    <br/>
                 <label for="user_pin">PIN:</label>
                 <br/>
                 <input type ="password" id="user_pin" placeholder="Card PIN" maxlength="4">
