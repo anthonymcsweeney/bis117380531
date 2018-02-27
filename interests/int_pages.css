@@ -1,18 +1,24 @@
 #section1{
     background-image:  url("http://campusclipper.com/blog/wp-content/uploads/2017/06/decouvrir-la-region-de-paris-hd.jpg");
     background-color: #cccccc;
-    
+  background-repeat: no-repeat; 
+background-position: center center;
+
 }
 
 #section2{
     background-image: url("http://images6.fanpop.com/image/photos/32200000/Sydney-australia-32220128-1920-1200.jpg");   
     background-color: #cccccc;
-   
+ background-repeat: no-repeat; 
+background-position: center center;
+
 }
 
 #section3{
     background-image: url("https://lonelyplanetimages.imgix.net/mastheads/GettyImages-538096543_medium.jpg?sharp=10&vib=20&w=1200");
     background-color: #cccccc;
+background-repeat: no-repeat; 
+background-position: center center;
 
 }
 
