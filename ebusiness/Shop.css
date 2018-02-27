@@ -1,0 +1,77 @@
+ button[type=submit]:disabled {
+                           background-color: grey;
+                           border-radius: 2px;
+                           border:none;
+                           color: black;
+                           padding: 5px;
+                           cursor: pointer;
+                           
+       }
+       button[type=submit]:enabled {
+                          background-color:#46a049;
+                          color: White;
+       }
+
+.btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+    .info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+
+   
+        #Logo {
+            top:4em;
+            left:2em;
+            position: absolute;
+        }
+        
+          #groupbox {
+                        top:7em;
+                        left:33em;
+                        width:30em;
+                        height:20em;
+                        position:absolute;
+                        border-style:groove;
+        }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b4b4b4;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #787878
+}
+
+.active {
+    background-color: #33CEFF;
+}

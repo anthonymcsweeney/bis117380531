@@ -19,7 +19,20 @@ function validateDetails(){
         enablebtnPurchase();
         }
     
-}
+     function nameValidate() {
+        
+    var name;
+    name = document.getElementById("name").value;
+    
+    if (name == ""){
+        alert("Please enter your Name to continue");
+    }
+        else{
+            enablebtnPurchase();
+            
+        }
+    }
+
 
   
 

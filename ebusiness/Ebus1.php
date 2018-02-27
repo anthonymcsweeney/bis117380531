@@ -3,23 +3,31 @@
     <head>
         
                 <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Shop.css" type="text/css">
 <style>
-.btn {
-    border: none;
-    color: white;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-}
 
-.success {background-color: #4CAF50;} /* Green */
-.success:hover {background-color: #46a049;}
+   
+        #groupbox {
+                        top:7em;
+                        left:33em;
+                        width:30em;
+                        height:27em;
+                        position:absolute;
+                        border-style:groove;
+        }
 
-.warning {background-color: #ff9800;} /* Orange */
-.warning:hover {background: #e68a00;}
+</style>
+</head>
+<body>
 
-.danger {background-color: #f44336;} /* Red */ 
-.danger:hover {background: #da190b;}
+<ul>
+   <li><a class="active" href="#home">Shop</a></li>
+    <li><a href="EbusHomepage.html">Home</a></li>
+  <li><a href="Contacts.html">Contact</a></li>
+ 
+    <li style="float:right"><a href="../homepage.html">Exit</a></li>
+</ul>
+
 
 </style>
 
@@ -40,13 +48,17 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
         
-        
+        <div id ="Logo">
+        <img src="https://i.pinimg.com/originals/05/c2/1d/05c21d12200c0585f34374830e692576.jpg" width="225" heigth="65">
+    </div>
     </head>
     
     <body>
-        
+        <center>
             <h2>Select a Product</h2>
+            </center>
             
+            <div id ="groupbox">
             <br/>
             
             <form method="POST" action="Ebus2.php">
@@ -114,14 +126,14 @@
                 <br/>
                 
                 <button type="submit" id="btnProceed" class="btn success" disabled>Add to Shopping Cart</button>
-                
+              
             </form>
             
             <br/>
             <button onClick="calcSub()"  class="btn warning">Calculate Cost</button>
             
             <a role="button" href="Ebus1.php" class="btn danger">Clear Choice</a>
-            
+            </div>
      
         
     </body>
