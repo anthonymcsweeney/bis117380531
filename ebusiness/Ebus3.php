@@ -82,6 +82,8 @@ session_start();
         </p>
         
         <a href="../homepage.html" class="buttonhome">Return Home</a> 
+        </br>
+        </br>
         <button onclick="myPrint()" class="buttonprint">Print Receipt</button>
         </div>
         
