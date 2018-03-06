@@ -8,11 +8,11 @@ session_start();
         <style>
        
         
-          #groupbox {
+          #groupbox3 {
                         top:7em;
                         left:32em;
                         width:30em;
-                        height:30em;
+                        height:15em;
                         position:absolute;
                         border-style:groove;
         }
@@ -49,7 +49,7 @@ session_start();
              <center>
         <h2>RECEIPT</h2>
         </center>
-        <div id ="groupbox">
+        <div id ="groupbox3">
                 
         
         
@@ -58,14 +58,15 @@ session_start();
         // putting in variables 
           $_SESSION["name"] = $_POST["name"];
           $_SESSION["email"] = $_POST["email"];
+          $_SESSION["totalPrice"] = $_POST["totalPrice"];
         ?>
-        
+        <font size="4">
         <p class="name">
             <?php
             // carrying over username
             echo "Name: " . $_SESSION["name"] . ".";
             ?>
-        </p>
+                    </p>
         
         <p class="email">
             <?php
@@ -74,17 +75,17 @@ session_start();
             ?>
         </p>
         
-        <p class="total">
+        <p class="totalPrice">
             <?php
             // carrying over total
             echo "Total: " . $_SESSION["totalPrice"] . ".";
             ?>
         </p>
+        </br>
+        <a href="../homepage.html" class="btn success">Return Home</a> 
+
         
-        <a href="../homepage.html" class="buttonhome">Return Home</a> 
-        </br>
-        </br>
-        <button onclick="myPrint()" class="buttonprint">Print Receipt</button>
+        <button class="btn info" onclick="myPrint()">Print Receipt</button>
         </div>
         
         <script>
