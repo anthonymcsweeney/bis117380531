@@ -151,8 +151,7 @@ li a:hover:not(.active) {
         <?php
         //set session variables
         $_SESSION["totalPrice"] = $_POST["totalPrice"];
-         $_SESSION["email"] = $_POST["email"];
-          $_SESSION["name"] = $_POST["name"];
+      
         ?>
         
         

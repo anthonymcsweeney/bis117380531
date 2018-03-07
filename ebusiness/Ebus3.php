@@ -58,7 +58,7 @@ session_start();
         // putting in variables 
           $_SESSION["name"] = $_POST["name"];
           $_SESSION["email"] = $_POST["email"];
-          $_SESSION["totalPrice"] = $_POST["totalPrice"];
+         
         ?>
         <font size="4">
         <p class="name">
@@ -78,7 +78,7 @@ session_start();
         <p class="totalPrice">
             <?php
             // carrying over total
-            echo "Total: " . $_SESSION["totalPrice"] . ".";
+            echo "Total Price is " . $_SESSION["totalPrice"] . "</br>";
             ?>
         </p>
         </br>
