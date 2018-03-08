@@ -27,7 +27,7 @@
 </br>
 <center>
 <p> <img src="https://www.irishexaminer.com/remote/media.central.ie/media/images/c/corksouthmallpropertyjan1718a_large.jpg?width=648&s=ie-465914" width="150" height="120"></p>
-
+<center>
 <p>Head office</p>
 <p>21 Lavitt's Quay</p>
 <p>Cork</p>
@@ -48,20 +48,18 @@
 <h3>Contact Form</h3>
 
 <div class="container">
-  <form action="Contacts.html">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+ <form action="../ebusiness/action_page.php" method="get">
+     
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
 
     <label for="country">Country</label>
     <select id="country" name="country">
-      <option value="ireland">Ireland</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-      <option value="england">England</option>
-      <option value="australia">Austriala</option>
+      <option value="Ireland">Ireland</option>
+      <option value="Canada">Canada</option>
+      <option value="Usa">USA</option>
+      <option value="England">England</option>
+      <option value="Australia">Austriala</option>
     </select>
 
     <label for="subject">Subject</label>

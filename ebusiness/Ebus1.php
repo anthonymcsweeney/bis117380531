@@ -12,7 +12,7 @@
                         top:7em;
                         left:33em;
                         width:30em;
-                        height:27em;
+                        height:32em;
                         position:absolute;
                         border-style:groove;
         }
