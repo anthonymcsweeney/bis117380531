@@ -1,11 +1,6 @@
 <!DOCTYPE html>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
- 
 
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <c:set var="loc" value="com.en_US"/>
 <c:if test="${!(empty param.locale)}">
     <c:set var="loc" value="${param.locale}"/>
