@@ -1,1 +1,1 @@
-<?php include_once("Login.jsp") ?>
+<?php include_once("Home.jsp") ?>
